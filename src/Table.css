@@ -1,0 +1,39 @@
+.table-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 10px auto;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #000000;
+    color: white;
+  }
+  
+  th {
+    background-color: orange;
+    font-weight: bold;
+    color: black;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #3b3b3b;
+    
+  }
+  
+
+  
+  @media (max-width: 767px) {
+    th, td {
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
+  

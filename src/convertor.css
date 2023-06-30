@@ -1,0 +1,112 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    margin-top: 4rem;
+    width: 100%;
+    height: fit-content;
+    z-index: -1;
+    /* background-image: radial-gradient(circle, #555555 0%, #333333 100%); */
+    overflow: hidden;
+  }
+
+  .infixConverter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 4.8rem 0;
+    padding: 2rem;
+    width: 100%;
+    height: fit-content;
+    border-radius: 1rem;
+    /* background-color: #333333; */
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); */
+  }
+
+  .infixConverter h4 {
+    margin: 2rem 0;
+    text-align: center;
+    font: 1.45em sans-serif;
+    color: white;
+  } 
+
+.infixInput {
+    width: 35%;
+    height: 4rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #3b3b3b;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 0 1rem;
+    caret-color: white;
+    font: 1.45em sans-serif;
+    color: white;
+  }
+  
+  .PostfixOrPrefix {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    width: 80%;
+  }
+  
+  .radio {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    accent-color: orange;
+    background: #3b3b3b;
+    cursor: pointer;
+
+  }
+  
+  .PostfixOrPrefix h4 {
+    font: 1.5rem sans-serif;
+    color: white;
+    margin: 0 1rem;
+    cursor: pointer;
+  }
+  
+  .convertbtn {
+    min-height: 2rem;
+    padding: 1rem;
+    border: none;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+    border-radius: 2rem;
+    background-color: orange;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .convertbtn:hover {
+    color: orange;
+    background-color: black;
+  }
+  
+  .Result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    width: 80%;
+    font: 1.5em sans-serif;
+    font-weight: bold;
+  }
+  
+  #Resulttitle {
+    color: orange;
+    margin-right: 0.5rem;
+  }
+  
+  #result {
+    color: white;
+  }
